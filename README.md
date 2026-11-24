@@ -5,9 +5,9 @@ Each installs as its own app on the watch with its own icon.
 
 | Module | App name on watch | Sensor | Data today | Real-watch path |
 |--------|-------------------|--------|------------|-----------------|
-| `hr`   | **HR Monitor**    | Optical heart rate | ✅ live BPM + HRV (synthetic) | Health Services (works) → Samsung SDK for raw PPG/HRV |
-| `ecg`  | **ECG Monitor**   | Electrical (ECG)   | ✅ live synthetic waveform | 🔒 Samsung **Privileged** SDK (partnership) |
-| `bia`  | **Body Composition** | Bioimpedance (BIA) | ✅ synthetic on-demand readings | 🔒 Samsung **Privileged** SDK (partnership) |
+| `hr`   | **HR Monitor**    | Optical heart rate |  live BPM + HRV (synthetic) | Health Services (works) → Samsung SDK for raw PPG/HRV |
+| `ecg`  | **ECG Monitor**   | Electrical (ECG)   | live synthetic waveform |  Samsung **Privileged** SDK (partnership) |
+| `bia`  | **Body Composition** | Bioimpedance (BIA) | synthetic on-demand readings |  Samsung **Privileged** SDK (partnership) |
 | `core` | _(library)_       | —      | CSV logging, curved button | shared by all three |
 
 > Each app has a `DataSourceConfig.USE_DUMMY` flag. It's `true` now (synthetic data,
@@ -48,7 +48,7 @@ adb pull /sdcard/Android/data/com.uncc.galaxyheart.bia/files/sessions ./bia
 
 ---
 
-## Switching to the real watch (tomorrow)
+## Switching to the real watch 
 Per app, edit its `data/DataSourceConfig.kt` and set `USE_DUMMY = false`.
 - **HR** ([hr/.../data/DataSourceConfig.kt](hr/src/main/java/com/uncc/galaxyheart/hr/data/DataSourceConfig.kt)) — done, reads the optical sensor (asks for body-sensors permission).
 - **ECG / BIA** — first implement `PrivilegedEcgSource` / `PrivilegedBiaSource` using the
@@ -65,8 +65,4 @@ GalaxyWatchHeart/
 └─ bia/                         # Body Composition app
 ```
 
-## Roadmap
-- **Phase 1 (done):** three separate apps, HR live via Health Services, all with logging.
-- **Phase 1b:** Samsung Health Sensor SDK for raw PPG → real HRV in HR Monitor.
-- **Phase 2:** Samsung **Privileged** Health SDK partnership → real ECG + BIA. Start early; it gates the authentication work.
-- **Phase 3:** feed recorded ECG into an authentication model.
+
