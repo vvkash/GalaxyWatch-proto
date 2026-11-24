@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.uncc.galaxyheart.hr"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.BODY_SENSORS" />
+11-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:4:5-71
+11-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:4:22-68
+12    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+12-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:5:5-77
+12-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:5:22-74
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_HEALTH" />
+13-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:6:5-84
+13-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:6:22-81
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:7:5-68
+14-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:7:22-65
+15
+16    <uses-feature android:name="android.hardware.type.watch" />
+16-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:9:5-64
+16-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:9:19-61
+17
+18    <queries>
+18-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:19:5-21:15
+19        <package android:name="com.google.android.wearable.healthservices" />
+19-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:20:9-78
+19-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:20:18-75
+20    </queries>
+21
+22    <permission
+22-->[androidx.core:core:1.13.1] /Users/aakash/.gradle/caches/8.11.1/transforms/00202fdc5a8dbe3814c96cfdcde0cb35/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+23        android:name="com.uncc.galaxyheart.hr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.13.1] /Users/aakash/.gradle/caches/8.11.1/transforms/00202fdc5a8dbe3814c96cfdcde0cb35/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.13.1] /Users/aakash/.gradle/caches/8.11.1/transforms/00202fdc5a8dbe3814c96cfdcde0cb35/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.uncc.galaxyheart.hr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.13.1] /Users/aakash/.gradle/caches/8.11.1/transforms/00202fdc5a8dbe3814c96cfdcde0cb35/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.13.1] /Users/aakash/.gradle/caches/8.11.1/transforms/00202fdc5a8dbe3814c96cfdcde0cb35/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:11:5-32:19
+29        android:allowBackup="true"
+29-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:12:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.13.1] /Users/aakash/.gradle/caches/8.11.1/transforms/00202fdc5a8dbe3814c96cfdcde0cb35/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:extractNativeLibs="false"
+33        android:icon="@drawable/ic_launcher"
+33-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:13:9-45
+34        android:label="@string/app_name"
+34-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:14:9-41
+35        android:supportsRtl="true"
+35-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:15:9-35
+36        android:testOnly="true"
+37        android:theme="@android:style/Theme.DeviceDefault" >
+37-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:16:9-59
+38        <meta-data
+38-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:18:9-20:36
+39            android:name="com.google.android.wearable.standalone"
+39-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:19:13-66
+40            android:value="true" />
+40-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:20:13-33
+41
+42        <activity
+42-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:22:9-31:20
+43            android:name="com.uncc.galaxyheart.hr.MainActivity"
+43-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:23:13-41
+44            android:exported="true"
+44-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:24:13-36
+45            android:taskAffinity=""
+45-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:25:13-36
+46            android:theme="@android:style/Theme.DeviceDefault" >
+46-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:26:13-63
+47            <intent-filter>
+47-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:27:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:28:17-69
+48-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:28:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:29:17-77
+50-->/Users/aakash/Desktop/GalaxyWatchHeart/hr/src/main/AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <service
+54-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:24:9-31:19
+55            android:name="androidx.health.services.client.VersionApiService"
+55-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:25:13-77
+56            android:exported="true"
+56-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:26:13-36
+57            android:permission="com.google.android.wearable.healthservices.permission.PASSIVE_DATA_BINDING" >
+57-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:27:13-108
+58            <intent-filter>
+58-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:28:13-30:29
+59                <action android:name="hs.versionclient.BIND" />
+59-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:29:17-64
+59-->[androidx.health:health-services-client:1.1.0-alpha05] /Users/aakash/.gradle/caches/8.11.1/transforms/3f9e6d8f23d3b428d053a14e44d338b7/transformed/health-services-client-1.1.0-alpha05/AndroidManifest.xml:29:25-61
+60            </intent-filter>
+61        </service>
+62
+63        <uses-library
+63-->[androidx.wear.compose:compose-foundation:1.4.1] /Users/aakash/.gradle/caches/8.11.1/transforms/5808837f9bf3d1c47901f1eb99a38cbe/transformed/compose-foundation-1.4.1/AndroidManifest.xml:23:9-25:40
+64            android:name="wear-sdk"
+64-->[androidx.wear.compose:compose-foundation:1.4.1] /Users/aakash/.gradle/caches/8.11.1/transforms/5808837f9bf3d1c47901f1eb99a38cbe/transformed/compose-foundation-1.4.1/AndroidManifest.xml:24:13-36
+65            android:required="false" />
+65-->[androidx.wear.compose:compose-foundation:1.4.1] /Users/aakash/.gradle/caches/8.11.1/transforms/5808837f9bf3d1c47901f1eb99a38cbe/transformed/compose-foundation-1.4.1/AndroidManifest.xml:25:13-37
+66
+67        <activity
+67-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/aakash/.gradle/caches/8.11.1/transforms/d1cfa8cd8503afff4d7224faada034a5/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+68            android:name="androidx.compose.ui.tooling.PreviewActivity"
+68-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/aakash/.gradle/caches/8.11.1/transforms/d1cfa8cd8503afff4d7224faada034a5/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+69            android:exported="true" />
+69-->[androidx.compose.ui:ui-tooling-android:1.7.6] /Users/aakash/.gradle/caches/8.11.1/transforms/d1cfa8cd8503afff4d7224faada034a5/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+73            android:authorities="com.uncc.galaxyheart.hr.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.3.0] /Users/aakash/.gradle/caches/8.11.1/transforms/e944d2a0e8f857e281c6081cf2ac857b/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/aakash/.gradle/caches/8.11.1/transforms/c37406e4844ac2c4f86a1c65b4296a34/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/aakash/.gradle/caches/8.11.1/transforms/c37406e4844ac2c4f86a1c65b4296a34/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/aakash/.gradle/caches/8.11.1/transforms/c37406e4844ac2c4f86a1c65b4296a34/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+83                android:value="androidx.startup" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+84        </provider>
+85
+86        <receiver
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+87            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+88            android:directBootAware="false"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+89            android:enabled="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+90            android:exported="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+91            android:permission="android.permission.DUMP" >
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+93                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+96                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+99                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+102                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/aakash/.gradle/caches/8.11.1/transforms/d6a0272db2b66da6f60eb355100f002f/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+103            </intent-filter>
+104        </receiver>
+105    </application>
+106
+107</manifest>
